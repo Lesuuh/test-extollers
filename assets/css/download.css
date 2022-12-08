@@ -1,0 +1,158 @@
+.download{
+    margin-top: 100px;
+    padding: 0 130px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.download .left{
+    /* width: 60%; */
+    margin-bottom: 50px;
+}
+
+.download .left span p{
+    background: #000;
+    color: #fff;
+    width: 183px;
+    height: 50px;
+    border-radius: 10px;
+    padding: 14px 29px;
+    font-size: 1.2rem;
+}
+
+.download .left h3{
+    margin-top: 30px;
+    font-size: 2rem;
+}
+
+.download .left .heading p{
+    color: #FFCC4D;
+    font-size: .8rem;
+}
+
+.download .links{
+    display: flex;
+    flex-flow: row;
+    width: 100%;
+    justify-content: flex-start;
+    gap: 20px;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.download .img img{
+    width: 700px;
+    height: 776px;
+    margin-top: 50px;
+
+}
+
+.download .about-artist{
+    font-weight: 600;
+    font-size: 1.1rem;
+    line-height: 137.5%;
+    color: rgba(0, 0, 0, 0.8);
+    margin-top: 30px;
+}
+
+.download .about-artist b{
+    font-weight: 700;
+    font-size: 1.3rem;
+    color: #000;
+}
+
+
+.download .about-song h4{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 127%;
+
+    color: #000000;
+
+    opacity: 0.85;
+}
+
+.download .about-song p{
+    font-size: 1.1rem;
+    line-height: 127%;
+    color: #000000;
+    opacity: 0.75;
+}
+
+.download .download-box{
+   display: flex;
+   flex-flow: column;
+   justify-content: center;
+   align-items: center;
+   margin-top: 50px;
+   gap: 30px;
+}
+
+.download .download-now{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    gap: 20px;
+}
+
+.download .download-now a{
+    color: #62ABD0;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.download .artist-bio h4{
+    margin-top: 20px;
+    font-size: 24px;
+    line-height: 127%;
+    color: #000000;
+    opacity: 0.85;
+}
+
+.download .artist-bio p{
+    font-size: 1.1rem;
+    line-height: 127%;
+    color: #000000;
+    opacity: 0.75;
+}
+.download .right-box{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.download .right-box .box .head{
+   padding: 5px 100px 5px 5px;
+   background: #000;
+   color: #fff;
+   margin: 10px 0;
+}
+
+.download .box .body .box{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.download .box .body .box .left{
+    padding: 10px;
+    width: 50%;
+    margin-bottom: 0;
+}
+
+.download .box .body .box .left img{
+    width: 119px;
+    height: 101px;
+    align-self: center;
+}
+
+.download .box .body .box .right{
+    color: #000;
+}
+
+.download .box .body .box .right p{
+    color: #FFCC4D;
+}

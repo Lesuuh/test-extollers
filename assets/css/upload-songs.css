@@ -1,0 +1,180 @@
+.upload-songs{
+    margin-top: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 0 50px;
+}
+
+.upload-songs .left{
+    display: flex;
+    flex-flow: column;
+    width: 55%;
+    /* background: red; */
+    /* align-items: center; */
+}
+
+.upload-songs .left .header{
+    width: 100%;
+    /* display: flex; */
+    text-align: center;
+    margin-bottom: 30px;
+    
+
+    /* flex-flow: column; */
+}
+
+.upload-songs .left .heading h3{
+    font-size: 38px;
+    text-align: center;
+}
+.upload-songs .left .header p{
+    font-size: 21px;
+    text-align: center;
+    
+    line-height: 110%;
+    opacity: 0.6;
+}
+.upload-songs .left .header .header-line{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+
+}
+.upload-songs .left .header .line{
+    width: 400px;
+}
+
+.upload-songs .left .img{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.upload-songs .left .img img{
+   width: 230px;
+   height: 500px;
+}
+.promote{
+    margin-top: 60px;
+    width: 100%;
+}
+
+.promote .heading{
+    font-size: 2.375rem;
+    font-weight: 700;
+    text-align: center;
+}
+.promote .sub-heading{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.promote .sub-heading .span{
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.promote .sub-heading p{
+    font-size: 1.5rem;
+    line-height: 110%;
+    color: #62ABD0;
+    font-style: normal;
+    line-height: 130.5%;
+}
+
+
+.promote .sub-heading img{
+    width: 28px;
+    height: 28px;
+    margin-right: 10px;
+}
+
+.promote .text{
+    line-height: 130.5%;
+    margin-top: 31.5px;
+    font-size: 1.5rem;
+}
+
+.content-requirement{
+    margin-top: 50px;
+}
+.content-requirement .body .span{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.content-requirement .heading{
+    font-size: 2.375rem;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.content-requirement .body .span {
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 110%;
+    padding: 10px 0;
+}
+
+.upload-songs .left .button{
+    display: flex;
+    width: 100%;
+    flex-flow: row;
+    justify-content: center;
+}
+
+.upload-songs .left button{
+    width: 340px;
+    height: 81px;
+    background: #62ABD0;
+    font-size: 2.235rem;
+    color: #fff;
+    border: none;
+    border-radius: 20px;
+    margin: 70px 0;
+}
+
+.upload-songs .right{
+    /* width: 100%; */
+    display: flex;
+    flex-flow: column;
+    box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.4);
+    width: 506px;
+    height: 818px;
+    border-radius: 10px;
+}
+
+.upload-songs .right .header{
+    text-align: center;
+    padding: 30px 0;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+}
+.upload-songs .right .header .line{
+    width: 413px;
+    margin-top: 5px;
+    
+}
+
+.advert-img{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 25px;
+}
+
+.advert-img img{
+    width: 441px;
+    height: 320px;
+    
+}
